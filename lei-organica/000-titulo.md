@@ -1,0 +1,3 @@
+# LEI ORGÂNICA DO MUNICÍPIO DE VOLTA REDONDA.
+Nós, os representantes do povo, reunidos na Câmara Municipal de Volta Redonda, nos termos do parágrafo único do artigo 11, do Ato das Disposições Constitucionais Transitórias da Constituição da República Federativa do Brasil, promulgada em 05 de outubro de 1988, e em consonância com o propósito de assegurar o exercício dos direitos sociais e individuais, a liberdade, a segurança, o bem-estar, o desenvolvimento e a igualdade como valores supremos da sociedade, votamos e aprovamos, com respeito ao disposto na Constituição Federal e na Constituição Estadual, a seguinte
+LEI ORGÂNICA DO MUNICÍPIO DE VOLTA REDONDA
