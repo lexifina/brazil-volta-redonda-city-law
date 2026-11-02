@@ -1,0 +1,9 @@
+{
+  "path": "br-rj-volta-redonda",
+  "code": "BR-RJ-VOLTA-REDONDA",
+  "name": "Volta Redonda (city)",
+  "level": "municipality",
+  "parent": "br-rj",
+  "repo": "https://github.com/lexifina/brazil-volta-redonda-city-law",
+  "build": "built: the law of Volta Redonda from the Câmara Municipal's SAPL"
+}

@@ -1,0 +1,427 @@
+{
+ "country": "BR-RJ-VOLTA-REDONDA",
+ "acts": [
+  {
+   "slug": "lei-organica",
+   "short": "LOM-Volta-Redonda",
+   "title": "Lei Orgânica do Município de Volta Redonda",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/5735",
+   "versions": [
+    {
+     "from": "1990-04-05",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/0,1990-04-05,1990-06-25:Ypkhf06GuSFPHD6_y8oDwCkmzSw/",
+     "sha256": "e80fd2edd52538fc5621c69bdee7dfc3f89e9a589497beaeb8fe889b051799c8"
+    },
+    {
+     "from": "1990-06-26",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/6,1990-06-26,1990-08-27:H71pD9AIgAbh6Y1FXvyY4tgkcxU/",
+     "sha256": "45f66e2909b72ba5ce1e412af3c9701d075fb0825ac7ed17528a65c08ed7fb13"
+    },
+    {
+     "from": "1990-08-28",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/7,1990-08-28,1990-10-18:uv8tzYWJG6O7k96KLilygCLowGI/",
+     "sha256": "c7d7a3030cbb9330d6389fef3f2c6539c4fb90e7383cbc3e11f58ba5906fad13"
+    },
+    {
+     "from": "1990-10-19",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/8,1990-10-19,1990-10-25:FzNIe_YJAd-xV5IRdfCjsP9xokc/",
+     "sha256": "b43c4086ff5bd44af1854ba4ec0ca0a05113221d61f743b3109b72920b6346bc"
+    },
+    {
+     "from": "1990-10-26",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/9,1990-10-26,1991-05-13:519FpSFGaVvf-E_0JcwL3rtBh8A/",
+     "sha256": "69d523864bcbd17f79aef264489cdb76740d33a56d0845ef56106c3169b2060d"
+    },
+    {
+     "from": "1991-05-14",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/10,1991-05-14,1991-07-27:YiLOWecFzh_alxgeuJW5Fsgn0Cg/",
+     "sha256": "a37eef8a783a4ca2493e4ee49520730d343b552f1a0ac3ef2a45c0fad81cc9e2"
+    },
+    {
+     "from": "1991-07-28",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/11,1991-07-28,1991-11-20:2wBu-WFyX8iCBQBsaSI2MUR2aIE/",
+     "sha256": "4b6ffce6c91b14a48152340e00ed67c5e9d03d023683874a7429fb2adcfa8a15"
+    },
+    {
+     "from": "1991-11-21",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/12,1991-11-21,1992-04-09:XPrs34iiiKwskdlNS8GIrhVJuCk/",
+     "sha256": "ec302e8b7d4eb34c30ce012737abcb799727773ae72c7d0465470bc5ff01d2af"
+    },
+    {
+     "from": "1992-04-10",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/13,1992-04-10,1993-03-01:nXmFgoeekf9gwhiz8zf_jS4JHcc/",
+     "sha256": "a8577cf7e99282c46d89fa7dc2ac567177b6bb97b10b1424603c47daa738a015"
+    },
+    {
+     "from": "1992-04-10",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/14,1992-04-10,1993-03-01:vvjL7ssfao2V0RInVGf0NicSpRM/",
+     "sha256": "7b3150295fd284b4b2c760c77767b619e12f567a8e514d498624fd8b7dd00957"
+    },
+    {
+     "from": "1993-03-02",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/15,1993-03-02,1993-04-29:0ihHPGyX7mGiHCIm5tI5I5Jit9Y/",
+     "sha256": "c7c1ba67c2eaeede2ece4d7d9ce84c284121d3539d4347e05dd7338a69a600ba"
+    },
+    {
+     "from": "1993-04-30",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/16,1993-04-30,1993-06-07:6V56Go0GAHqpHVURx-9rwtye8l4/",
+     "sha256": "51961d4b17f36f30a0181512fd9d8e431543bbb8204bb9578016b849a1d82879"
+    },
+    {
+     "from": "1993-06-08",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/17,1993-06-08,1993-10-21:CanSMslVrhDSko_3nBZmLUdOIZY/",
+     "sha256": "88315cdf3dde4f592a6b0e280d285d65b59554529a155862541526bc358a845d"
+    },
+    {
+     "from": "1993-10-22",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/18,1993-10-22,1993-12-05:WB65bXbO_-umr-2zo2_LEpiHfRI/",
+     "sha256": "aa248fc2b75702824ebf27adfc20132dd29597407e71de8f3ce158ae2dcdbc5c"
+    },
+    {
+     "from": "1993-12-06",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/20,1993-12-06,1993-12-09:r7Ceuu2U5JI-4Xkq1DaEdiGqBqM/",
+     "sha256": "d33e648bbced4d09e89396eab65f38246cbf363c0b7ab7006fcd2120250bba62"
+    },
+    {
+     "from": "1993-12-10",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/19,1993-12-10,1994-08-21:FL7vJ0fi45clgDTOEAA-5giZfxc/",
+     "sha256": "a895cb3f921a3895231b7f2030569d97b74513b92d23a005488b0444b4c0fb92"
+    },
+    {
+     "from": "1994-08-22",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/21,1994-08-22,1995-01-02:Hn3OqmRQznVUiDLgf26ZUcuq3mY/",
+     "sha256": "f49e64f53b2f74949b05bbfc5d8987a4a438f2656447b19790aa9c9476c3754d"
+    },
+    {
+     "from": "1995-01-03",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/22,1995-01-03,1995-04-05:-OXxtown6fnI_8FNbJoy7DQhnFw/",
+     "sha256": "fe75f8e8bbbece55b511d7925dee0d6a3c39e94e4541ac560fc91855135b4b76"
+    },
+    {
+     "from": "1995-04-06",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/23,1995-04-06,1995-05-05:rKOJ8_By7cjIKzX0jIiyytrzrEo/",
+     "sha256": "2b639743fe42f032d51494ec7eaf0e74456322380be32ba4dc980912f5054f29"
+    },
+    {
+     "from": "1995-05-06",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/24,1995-05-06,1997-06-02:SEjOihQprKdBSDyN0gg4rH5JUfs/",
+     "sha256": "a00a2c77c55543ce2e16ed9b49def62fdd7ce9dab557ae05e061b641e05ea50e"
+    },
+    {
+     "from": "1997-06-03",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/25,1997-06-03,1997-06-10:byKRhetLNYPKzCOCT4uKFUw0FMU/",
+     "sha256": "7b7e264b566fad313d28c515e77fc274533954c22756d3be7d88181f8d9005e7"
+    },
+    {
+     "from": "1997-06-11",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/26,1997-06-11,1997-07-13:raXyfPHVuOTO_Ush65_KSImJVE4/",
+     "sha256": "e2cbdd4e849773f61cf92a30e74158d5ca2baa8e0d2e57e46be28af98b849ab2"
+    },
+    {
+     "from": "1997-07-14",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/27,1997-07-14,1997-09-30:KsU7Z6nIzhAA8iBpCNPEVSZL2y8/",
+     "sha256": "16b3d2a0bb8f08c997b3d97568431e4deea9f7134ccb31e44eb230c3d68c93da"
+    },
+    {
+     "from": "1997-10-01",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/28,1997-10-01,1997-10-20:dOp5uEC0C-GheufstD27PdsEpow/",
+     "sha256": "344ffc930cf5ffed1179fa3be930211ef1d05b8fc70518f22c05f2c848cbb8d6"
+    },
+    {
+     "from": "1997-10-21",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/29,1997-10-21,1997-10-28:OKYzbEkFy_zWQD0HgKzxegz24XU/",
+     "sha256": "37f3cefbccaf99dca396a8b5cd20079ba13e0888c25148ca5f578605ff449607"
+    },
+    {
+     "from": "1997-10-29",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/30,1997-10-29,1997-12-04:zZnlHI4Ukxd2Kwja5o1PcvINoiU/",
+     "sha256": "1afc554c8b2633a84158bb77162bd46c5412bdc023d16e19b4cd3d3ce950ba4e"
+    },
+    {
+     "from": "1997-12-05",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/31,1997-12-05,2001-06-04:Osrb5f09jrHWgEIxnO0ev3nSdJQ/",
+     "sha256": "c7cb4112d8185e340ada04d45aa2812bd89ddfbe6f835e034f05ab6111afbaf1"
+    },
+    {
+     "from": "2001-06-05",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/32,2001-06-05,2001-09-17:FWlXjk99b-xXKuWUyGBlIvXDEq8/",
+     "sha256": "dacea8167e4f09c634ecbcc37ef358ab0c82a34e90719694c269ea215e6ca80a"
+    },
+    {
+     "from": "2001-09-18",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/33,2001-09-18,2002-11-21:yBAJb6WdQvyc3QFcWKQ0T9ez7xU/",
+     "sha256": "d39d09c8810ded5a3abc09fe1b5264d412e87371c29fe7b18534fd85fa5d5514"
+    },
+    {
+     "from": "2002-11-22",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/34,2002-11-22,2004-12-21:riC9vuKR1weCijLn4hMgN2gra_E/",
+     "sha256": "807a27fba10bbd0d133391d945f902312d97ea4df200f77e5e12850ddda291b8"
+    },
+    {
+     "from": "2004-12-22",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/35,2004-12-22,2005-02-27:FRsqKbC69X22SZkh1nswrLuq-3k/",
+     "sha256": "64272c0ea26006fa48f390b2bdb86d30c8ce9790c084560ad7b2d2eb87bcdd4a"
+    },
+    {
+     "from": "2005-02-28",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/36,2005-02-28,2005-03-22:Eq_mfPp9Xd2L_LGn4cuPmfR8K30/",
+     "sha256": "37009b2f0ac91f9d11de498e5ca8101ceaab47c5aff9bad4f3fac94fd6b5ef67"
+    },
+    {
+     "from": "2005-03-23",
+     "units": 461,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/37,2005-03-23,2005-04-14:DkXc62QjIXRUDtI9ZeMW6mdYCcI/",
+     "sha256": "254b30b9c6a0a34dd2b08353c24cac678a7137c24e9fe2b1593a270baa0241db"
+    },
+    {
+     "from": "2005-04-15",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/39,2005-04-15,2005-05-31:S0NolHE0N3R0UtoKCCxo5i9xtNU/",
+     "sha256": "f2d2ea53e778e9067d2fecb4ec17dd85baf4e114ad5f7c66209bac23de6d6e65"
+    },
+    {
+     "from": "2005-04-15",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/40,2005-04-15,2005-05-31:UQRzPQZRc3d6A7NyV6X3tPR51Jw/",
+     "sha256": "89d515f661ef8f12904acb2920b036d17bc265d98c007fb1342ca151d970e86e"
+    },
+    {
+     "from": "2005-06-01",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/41,2005-06-01,2005-12-15:Xu4J4aOVmhuqpGH00wz0H-b-U24/",
+     "sha256": "42724f780c55396c9973d0a30e59f1bac0c11dcd0ff2ca6f420410efb2a9ee9b"
+    },
+    {
+     "from": "2005-06-01",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/42,2005-06-01,2005-12-15:qkP6JbW4Dujl5Tzjv-hBDSaGyeY/",
+     "sha256": "b015f3e865bff66abadb8271c517e22f74d27b296b1ec398f7a5d850d3ad6be4"
+    },
+    {
+     "from": "2005-12-16",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/43,2005-12-16,2005-12-20:RmyTqVgWIMej9kKPUONVFFOEMkU/",
+     "sha256": "257b03c2b559435da6ad1a89c416efcd09d2bddbddfabdc3e03811690b52d3bc"
+    },
+    {
+     "from": "2005-12-21",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/44,2005-12-21,2006-05-25:LOeJJrcTPj1-DhoEVCjBjsGKEF8/",
+     "sha256": "75b740c1362ac1118136ef6689950d3fd6b192e3b4071a6d6ba0b2589a14bb2e"
+    },
+    {
+     "from": "2006-05-26",
+     "units": 462,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/45,2006-05-26,2006-11-27:nTcMi98PS6iqxbv2VOfI5ovrWn4/",
+     "sha256": "6f739a17a608b2339b0a1b5774293f03dba27d040d4c0570182058f4bfa03c07"
+    },
+    {
+     "from": "2006-11-28",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/46,2006-11-28,2006-12-14:cdphRyPdszxhiAjf855R-OFY_vo/",
+     "sha256": "8105fb67c68f72fd14c7613b6115a8fa0d8969c27737bc7ee0973500ef1e1c59"
+    },
+    {
+     "from": "2006-11-28",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/47,2006-11-28,2006-12-14:NRbt8kk4zZ_Mk5b_ExF5UpG4NNc/",
+     "sha256": "37dd22aba707a6cfd1441c68f14b0eaf13623a95d876c24cf170e4b51be30d3d"
+    },
+    {
+     "from": "2006-12-15",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/48,2006-12-15,2007-12-16:SuOL6GyGGXor4VjvYm-Nx3_hUcs/",
+     "sha256": "7022abeff7f61eacaae6ab2db55db53125b172d9133e770a77a914a6a2394da6"
+    },
+    {
+     "from": "2007-12-17",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/49,2007-12-17,2007-12-20:nU3nJhMlcTqtLVE36I0uC_UJE4A/",
+     "sha256": "db32bbfdb99fdfc398402e741fcf070f1bc5481fb1fe9e52cb5ebfb90dc9d3f6"
+    },
+    {
+     "from": "2007-12-21",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/50,2007-12-21,2008-03-11:ZNuYI2NLKs82vx8EKWgiTOQphoc/",
+     "sha256": "71d1eebcf62ac738524f65e9b8d79a2083d31debc84029ab4fb49e47dcccd1d2"
+    },
+    {
+     "from": "2008-03-12",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/51,2008-03-12,2008-03-31:WiyFVj7fyeSV3f23xS50cZuH4OY/",
+     "sha256": "3dc6482c539f4ab35df9173600739b5e818de51536e34b79b00d0c71d8fff098"
+    },
+    {
+     "from": "2008-04-01",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/52,2008-04-01,2008-05-29:FaCnJZgYbJmEe3LvQWI2byEyVbg/",
+     "sha256": "53c37685ac0f503f9ff4d3e5579c183f6eb180f00cac03e14fa177806d809040"
+    },
+    {
+     "from": "2008-05-30",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/53,2008-05-30,2008-07-09:5w57ezZ46-k4LmNqRBpkIAAjUyo/",
+     "sha256": "972359148448dc835e97a4e690f827c74b8a390cf7653d5a0c4087f0812af503"
+    },
+    {
+     "from": "2008-07-10",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/54,2008-07-10,2008-12-25:e6HgDUhmfu4zUYRrO6JmuV4a5QI/",
+     "sha256": "9e1bf0e6e5df912932c61997958d402989275b35b264efbbff7e7447c9cf88a8"
+    },
+    {
+     "from": "2008-12-26",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/55,2008-12-26,2009-05-26:dxeL22nAT1dRLVcXEkGy20J7Bdw/",
+     "sha256": "edfca338037234013652a799b8d41cf3b9c80014526a5f92e6b1b9b4a9a966f8"
+    },
+    {
+     "from": "2009-05-27",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/56,2009-05-27,2012-04-02:RxK68pJ7GWFLiHETV_aR25wF54w/",
+     "sha256": "8963b61e375b3695614b5d284bbc262ededf42c6d91a4739966783e3a6524637"
+    },
+    {
+     "from": "2012-04-03",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/57,2012-04-03,2012-06-28:7VEHtABTU7loYlXn7fiV_gS4k6Y/",
+     "sha256": "10b41984955f317bc2a1a797c8a4b84734aadcec30b248dea36ed7dbf08ec143"
+    },
+    {
+     "from": "2012-06-29",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/58,2012-06-29,2014-03-17:-yZue3O3HZl0z7zayj64hyBzpBg/",
+     "sha256": "f27f2d94ec884f4824e3c79109d535f4399e5fff5de8ad497c4b72dbe81c2be5"
+    },
+    {
+     "from": "2014-03-18",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/59,2014-03-18,2014-04-08:T6LpclGLE-OdPxy7vlVGYp9syiI/",
+     "sha256": "fdeaec7c2a4ac8b3fb35dc0c7564a005124a95612cff370cdb8912c51919edd5"
+    },
+    {
+     "from": "2014-04-09",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/60,2014-04-09,2014-05-29:v5eCi-3ZPNR--uORiSrSeXhTdTQ/",
+     "sha256": "0e844fd692143e3752532d55e7c57b4b453f6219e5c750f9b3aaf6b19b9d8405"
+    },
+    {
+     "from": "2014-05-30",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/61,2014-05-30,2014-10-06:bObYckLigd8dEBfVR2sVhO81BiU/",
+     "sha256": "d9d278b73d2b0317ba7e9726aea8606102c5b4766dfd54d43a379d423af62cf5"
+    },
+    {
+     "from": "2014-10-07",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/62,2014-10-07,2015-08-11:YRSQkyntmyug_TLkbYuB_0YnB18/",
+     "sha256": "4bf5d7b3c9d998350e5f235d59bace746878581a6f1c8a9fb6cec289ecb0aa83"
+    },
+    {
+     "from": "2015-08-12",
+     "units": 463,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/63,2015-08-12,2016-02-29:O0uH82i86wCnodD_BKga-ii3Qgw/",
+     "sha256": "a9eb2fc6c88f1498edc99f367a6f5784c375b3b2534233650eb684480b3f9abe"
+    },
+    {
+     "from": "2016-03-01",
+     "units": 464,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/64,2016-03-01,2016-12-19:M0DFD5A2j6MRJgMWLiS2QImVt8I/",
+     "sha256": "83729010d78d2da8c78b63fd787e181cc46c91791777c58862ae81d2cf1a7e1d"
+    },
+    {
+     "from": "2016-03-01",
+     "units": 464,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/65,2016-03-01,2016-12-19:3AaSOiuLe2BskIAit5gg_PCtL48/",
+     "sha256": "0182d7c563283d182d0ea5a25c39c72db303d03e047fe522c895e6d6199ed115"
+    },
+    {
+     "from": "2016-12-20",
+     "units": 465,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/66,2016-12-20,2017-10-17:zUmpHopfaHutrXlg8YZ1CdHswlI/",
+     "sha256": "76c476ac061e5b53a7170ebf2b67c9502ceed5723bc01e7ab6f4eb5486aae870"
+    },
+    {
+     "from": "2017-10-18",
+     "units": 465,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/67,2017-10-18,2018-03-12:0lYVe6reeNJKEbLN-8vyjQzc-JY/",
+     "sha256": "38945feadf41e47d961bfd9dfd725e5793f1abfc870290443c209f9431eaf917"
+    },
+    {
+     "from": "2017-10-18",
+     "units": 465,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/68,2017-10-18,2018-03-12:yTEozqGZb1PKyvba05h6KtzKCz4/",
+     "sha256": "e3d4c8904ec28cad9f6f87bd55451c97c804463913e1299c95fa8ebb8a48e00a"
+    },
+    {
+     "from": "2018-03-13",
+     "units": 465,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/69,2018-03-13,2018-03-15:W2ltevMPT6c55tT0dT7sYfFUxDI/",
+     "sha256": "9d580ef601dad848cdb45f9e6127adcf968977eb10280463fe7f974de670ddc8"
+    },
+    {
+     "from": "2018-03-13",
+     "units": 465,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/70,2018-03-13,2018-03-15:UTwIcgl9ea5QVX57kk5m_gdWCpg/",
+     "sha256": "a698eb69e6a8cce88551ab9920ef1f014cc568ef9b44f76995c64c44951ea6f9"
+    },
+    {
+     "from": "2018-03-16",
+     "units": 466,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/71,2018-03-16,2018-08-27:RGILefsv3PM07AX1tqN7aWPz0JA/",
+     "sha256": "8a94e179b8640c5333743bb34b06c0c3fc830cd4342e91cf78e58dab703f742b"
+    },
+    {
+     "from": "2018-08-28",
+     "units": 466,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/72,2018-08-28,2018-10-25:eU_hxwgSWpLLMpSCfWbmNetqlxQ/",
+     "sha256": "2c3d8e8214d6cd9b7c70f56c5af7d5895714e6addab6960dac9aef719e566475"
+    },
+    {
+     "from": "2018-10-26",
+     "units": 466,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/ta/4/text/vigencia/73,2018-10-26,2021-09-23:bQyb2h6plTQG7shx7TL0mUbJWc8/",
+     "sha256": "c52145e386a4e254e02e79a54f3f409144739d8e7924864af32e70dafc8bc1e5"
+    },
+    {
+     "from": "2021-09-24",
+     "units": 466,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/norma/5735",
+     "sha256": "588aec672c9c5721af48403485a1c43cfe4f92771a2fc807c10c0b266809d4e3"
+    }
+   ]
+  }
+ ]
+}
