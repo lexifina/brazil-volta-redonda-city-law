@@ -422,6 +422,90 @@
      "sha256": "588aec672c9c5721af48403485a1c43cfe4f92771a2fc807c10c0b266809d4e3"
     }
    ]
+  },
+  {
+   "slug": "lei-2026-06890",
+   "short": "Lei 6890/2026",
+   "title": "Lei nº 6.890, de 1 de outubro de 2026",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/10495",
+   "versions": [
+    {
+     "from": "2026-10-01",
+     "units": 9,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2026/10495/6890_0001.pdf",
+     "sha256": "51f040237a0fc14db309e707633803415e94a65c67d5295b1e2cfbb686c34a00"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2026-06834",
+   "short": "Lei 6834/2026",
+   "title": "Lei nº 6.834, de 15 de junho de 2026",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/10314",
+   "versions": [
+    {
+     "from": "2026-06-15",
+     "units": 7,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2026/10314/6834.pdf",
+     "sha256": "169bcbdad6f0c1916139b5b04b69e634831ed1bcf24718fee31f73d073ee121d"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2025-06667",
+   "short": "Lei 6667/2025",
+   "title": "Lei nº 6.667, de 15 de setembro de 2025",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/9949",
+   "versions": [
+    {
+     "from": "2025-09-15",
+     "units": 3,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2025/9949/6667.pdf",
+     "sha256": "e9490836dd9b26448d8dbd0e4df50e3c10c1afeb9e3d0d146d8029dc5817fd57"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2025-06599",
+   "short": "Lei 6599/2025",
+   "title": "Lei nº 6.599, de 28 de abril de 2025",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/9789",
+   "versions": [
+    {
+     "from": "2025-04-28",
+     "units": 5,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2025/9789/6599.pdf",
+     "sha256": "b1f3932adf7677ef5f00d4f433d038593f7b61ee8200744cbac31b057a1d4d67"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2025-06595",
+   "short": "Lei 6595/2025",
+   "title": "Lei nº 6.595, de 25 de abril de 2025",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/9785",
+   "versions": [
+    {
+     "from": "2025-04-25",
+     "units": 3,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2025/9785/6595.pdf",
+     "sha256": "2dd9b854e9335a69dc5f260b540ef14cda1ebe903f69c7a90aa941631eacdb9e"
+    }
+   ]
+  },
+  {
+   "slug": "lei-2025-06550",
+   "short": "Lei 6550/2025",
+   "title": "Lei nº 6.550, de 19 de fevereiro de 2025",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/9716",
+   "versions": [
+    {
+     "from": "2025-02-19",
+     "units": 3,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2025/9716/lei_6550_2025.pdf",
+     "sha256": "719fbadb34ab729aea5f9fb0cf8a89e16cd3627411c2d6d9542b69d7f6bc22da"
+    }
+   ]
   }
  ]
 }
