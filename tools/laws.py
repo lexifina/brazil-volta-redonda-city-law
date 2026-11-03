@@ -89,6 +89,12 @@ def file_url(r):
     return u.replace('http://', 'https://', 1)
 
 
+def gone(url):
+    """sapl-runner (11-05): the file is not served: a remembered 404/410, or 3 time-outs (<raw>.skip)."""
+    p = RAW / sha(url.encode())
+    return Path(str(p) + '.404').exists() or Path(str(p) + '.skip').exists()
+
+
 def furniture(pages):
     """Normalised lines (digits as #) seen among the first or last 4 lines of two or more pages."""
     seen = {}
@@ -149,7 +155,7 @@ def law_act(r, kind, today):
         return None, {}, 'no file in SAPL'
     p = RAW / sha(url.encode())
     if not p.exists():
-        return None, {}, 'not fetched'
+        return None, {}, 'file not served (404 or repeated time-outs)' if gone(url) else 'not fetched'
     b = p.read_bytes()
     if b[:5] != b'%PDF-':
         return None, {}, 'not a PDF'
@@ -224,17 +230,19 @@ def main():
     reg = json.loads(REGISTRY.read_text(encoding='utf-8')) if REGISTRY.exists() else {}
     xp = HERE / 'letters-excluded.json'
     excluded = set(json.loads(xp.read_text(encoding='utf-8'))) if xp.exists() else set()
-    done = {i for name, ids in reg.items() if (HERE / 'corpus.d' / f'{name}.PUBLISH').exists() for i in ids}
+    done = {i for name, ids in reg.items() if (HERE / 'corpus.d' / f'{name}.PUBLISH').exists()
+            or (HERE / 'corpus.d' / f'{name}.EMPTY').exists() for i in ids}
     published_keys = set()
     for name in reg:
         q = HERE / 'corpus.d' / f'{name}.json'
         if (HERE / 'corpus.d' / f'{name}.PUBLISH').exists() and q.exists():
             published_keys |= {x['slug'] for x in json.loads(q.read_text(encoding='utf-8'))['acts']}
-    for name in [k for k in reg if not (HERE / 'corpus.d' / f'{k}.PUBLISH').exists()]:
+    for name in [k for k in reg if not (HERE / 'corpus.d' / f'{k}.PUBLISH').exists()
+                 and not (HERE / 'corpus.d' / f'{k}.EMPTY').exists()]:
         reg.pop(name)
         (HERE / 'corpus.d' / f'{name}.json').unlink(missing_ok=True)
     rest = [r for r in idx['records'] if r['id'] not in done]
-    if any(file_url(r) and not (RAW / sha(file_url(r).encode())).exists() for r in rest):
+    if any(file_url(r) and not (RAW / sha(file_url(r).encode())).exists() and not gone(file_url(r)) for r in rest):
         print('not every file fetched yet: no part written')
         return
     n0 = max([int(k.rsplit('-', 1)[1]) for k in reg] or [0])
@@ -258,7 +266,9 @@ def main():
             laws.update(l)
         name = f'30-leis-{n0 + i // a.part_size + 1:03d}'
         reg[name] = [r['id'] for r in chunk]
-        if not acts:
+        if not acts:  # sapl-runner (11-05): an empty window is final (every file fetched or not served)
+            (HERE / 'corpus.d' / f'{name}.EMPTY').write_text(json.dumps(reg[name]) + '\n', encoding='utf-8',
+                                                               newline='\n')
             continue  # nothing usable in this window: the registry still records it, no part file
         c = {'country': COUNTRY,
              'sources': [{'name': f"Câmara Municipal de {CONFIG['city']}, SAPL: records of the municipal laws and "
