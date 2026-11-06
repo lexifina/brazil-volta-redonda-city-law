@@ -1,12 +1,13 @@
 # How this repository was made (Volta Redonda)
 
-This file is written by the build on 2026-11-03, the day the source data was retrieved.
+This file is written by the build on 2026-11-06, the day the source data was retrieved.
 
 ## Sources
 
 | Source | Address | Retrieved | Licence |
 | --- | --- | --- | --- |
 | Câmara Municipal de Volta Redonda, SAPL: Texto Articulado of the Lei Orgânica, one view per period of vigência | <https://sapl.voltaredonda.rj.leg.br/norma/5735> | 2026-11-02 | Text: Câmara Municipal de Volta Redonda, SAPL (Sistema de Apoio ao Processo Legislativo), Lei Orgânica do Município de Volta Redonda, sapl.voltaredonda.rj.leg.br. Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the Diário Oficial do Município is authoritative. |
+| Câmara Municipal de Volta Redonda, SAPL: records of the municipal laws and their PDFs (newest first) | <https://sapl.voltaredonda.rj.leg.br/norma/pesquisar> | 2026-11-06 | Texts: Câmara Municipal de Volta Redonda, SAPL (Sistema de Apoio ao Processo Legislativo), sapl.voltaredonda.rj.leg.br; SAPL: "Conteúdo e dados sob licença Creative Commons 4.0 Atribuir Fonte - Compartilhar Igual". Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the official gazette is authoritative. |
 | Câmara Municipal de Volta Redonda, SAPL: scanned PDFs of municipal laws, read by OCR | <https://sapl.voltaredonda.rj.leg.br/norma/pesquisar> | 2026-11-03 | Texts: Câmara Municipal de Volta Redonda, SAPL (Sistema de Apoio ao Processo Legislativo), sapl.voltaredonda.rj.leg.br; SAPL: "Conteúdo e dados sob licença Creative Commons 4.0 Atribuir Fonte - Compartilhar Igual". Lei 9.610/1998 art. 8 IV: the texts of laws and other official acts are not protected by copyright. Non-official text: only the official gazette is authoritative. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
@@ -16,6 +17,7 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
 | `lei-organica` | Lei Orgânica do Município de Volta Redonda | 69 | 1990-04-05 to 2021-09-24 |
+| `lei-2021-05769` | Lei nº 5.769, de 5 de março de 2021 | 1 | 2021-03-05 to 2021-03-05 |
 | `lei-2026-06890` | Lei nº 6.890, de 1 de outubro de 2026 | 1 | 2026-10-01 to 2026-10-01 |
 | `lei-2026-06834` | Lei nº 6.834, de 15 de junho de 2026 | 1 | 2026-06-15 to 2026-06-15 |
 | `lei-2025-06667` | Lei nº 6.667, de 15 de setembro de 2025 | 1 | 2025-09-15 to 2025-09-15 |
@@ -23,19 +25,19 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `lei-2025-06595` | Lei nº 6.595, de 25 de abril de 2025 | 1 | 2025-04-25 to 2025-04-25 |
 | `lei-2025-06550` | Lei nº 6.550, de 19 de fevereiro de 2025 | 1 | 2025-02-19 to 2025-02-19 |
 
-The build made 68 commits:
+The build made 69 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 7 | first version of an act |
+| 8 | first version of an act |
 | 61 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
-- 0 commits on the branch `futuro`: laws not yet in force on 2026-11-03.
+- 0 commits on the branch `futuro`: laws not yet in force on 2026-11-06.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 75 laws in the record.
-- 136 tags.
+- 76 laws in the record.
+- 138 tags.
 
 ## Dates
 
@@ -47,13 +49,13 @@ When a law gives no date of its own, the default rule applies: The Lei Orgânica
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `a307a83eced888ada8709e648a84841111d7b12a8ce3d1f6913a0c89be32594e` (567670 bytes).
-- Builder blob hashes (`git hash-object`): `build.py` `0fad90cf931c453951234ecf904d05ee79f3ec7e`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
+- Corpus: sha256 `c692ccbb18a9bc579321c9a8d17b3bc133ba2e005dea7f2c7bed0d020b7a4d3e` (573457 bytes).
+- Builder blob hashes (`git hash-object`): `build.py` `3024ff164c261807dfc4d5b7b1b4a2cde4357da1`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-75 versions of 7 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
@@ -63,6 +65,9 @@ No second build of this corpus has been compared yet.
 - When the text SAPL shows as in force now (the norma page, with its "Vigência a partir de" day and "Dada por" act) starts after the last view, it is the last version. Where SAPL starts a period without naming an amending act, the units that changed are left uncredited and committed as publisher commits, not guessed.
 - Each provision is one line: its label ("Art. 1º.", "§ 1º", "XV –") followed by its text; table rows are one line each, cells separated by " | ". Notes SAPL keeps under a provision or links into it ("Inclusão feita pelo ..."), provisions it marks as superseded, the amending acts own blocks it shows inside the text and the amendment notes typed into the text ("(Redação dada pela Emenda ...)", "(Incluído pela ...)") are left out.
 - One file per Art.; headings stand above the first article under them; the "Ato das Disposições Orgânicas Transitórias", numbered from 1 again, is adt-*. "000-titulo" holds the preamble.
+- Each municipal law ("Lei" and "Lei Complementar") is given as enacted, from the PDF the Câmara's SAPL holds for it, credited to the law itself and dated by the publication date SAPL records for it (else by the law's own date). Later amendments by other laws are not worked into earlier laws: each law is its own file set as enacted. Laws are taken newest first, in parts.
+- Left out: scans (with or without an OCR layer), PDFs whose heading does not carry the record's number, texts with no article or no closing date line, texts carrying alteration notes, and laws whose vigência clause sets another day than their publication (or that have none, so that the 45 days of the LINDB apply).
+- The text runs from the law's heading to its closing date line (signatures after it are left out); lines repeated at the top or bottom of two or more pages (letterheads, footers) and page numbers are left out. Lines are joined into paragraphs: a new paragraph starts at a provision label, a heading line, or after a line ending in ".", ";" or ":". One file per Art.; "000-titulo" holds what comes before the first article.
 - Each municipal law ("Lei" and "Lei Complementar") is given as enacted, from the PDF the Câmara's SAPL holds for it, credited to the law itself and dated by the publication date SAPL records for it (else by the law's own date). Later amendments by other laws are not worked into earlier laws: each law is its own file set as enacted. Laws are taken newest first, in parts.
 - Left out: scans (with or without an OCR layer), PDFs whose heading does not carry the record's number, texts with no article or no closing date line, texts carrying alteration notes, and laws whose vigência clause sets another day than their publication (or that have none, so that the 45 days of the LINDB apply).
 - The text runs from the law's heading to its closing date line (signatures after it are left out); lines repeated at the top or bottom of two or more pages (letterheads, footers) and page numbers are left out. Lines are joined into paragraphs: a new paragraph starts at a provision label, a heading line, or after a line ending in ".", ";" or ":". One file per Art.; "000-titulo" holds what comes before the first article.
@@ -78,5 +83,6 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the SAPL pages.
+- Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the Câmara's SAPL.
 - Claude Code (claude-opus-5-5) wrote Lexifina's code and chose the sources. No model output is used as legal text or dates: every word comes from the Câmara's SAPL.
 - Where a PDF is a scan, its words are read by Tesseract OCR, not by a language model.

@@ -424,6 +424,20 @@
    ]
   },
   {
+   "slug": "lei-2021-05769",
+   "short": "Lei 5769/2021",
+   "title": "Lei nº 5.769, de 5 de março de 2021",
+   "url": "https://sapl.voltaredonda.rj.leg.br/norma/5859",
+   "versions": [
+    {
+     "from": "2021-03-05",
+     "units": 4,
+     "source_url": "https://sapl.voltaredonda.rj.leg.br/media/sapl/public/normajuridica/2021/5859/lei_5769_2021.pdf",
+     "sha256": "3bcc8be5c487d2b24c7f14c6b4eb7c64ead1d6caa4c11ff59913a292042e981b"
+    }
+   ]
+  },
+  {
    "slug": "lei-2026-06890",
    "short": "Lei 6890/2026",
    "title": "Lei nº 6.890, de 1 de outubro de 2026",
